@@ -70,20 +70,19 @@ if (isset($_POST['submit'])) {
 ?>
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<meta charset="utf-8">
 		<title>Crocodoc Upload Demo</title>
 	</head>
-  <body>
+	<body>
+		
 		<?php echo $message; ?>
 		<form action="" method="post" enctype="multipart/form-data" >
-	
 			<p>
 				<label>Document: <input name="file" type="file" required ></label>
 				<em>Only accepts .PDF, .DOC, .DOCX, .PPT & .PPTX filetypes.</em>
 			</p>
 			<p><button name="submit" >Upload</button></p>
-		
 		</form>
 		
 	</body>

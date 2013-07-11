@@ -29,11 +29,12 @@ try {
 ?>
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<meta charset="utf-8">
 		<title>Crocodoc Upload Demo - Viewer</title>
 	</head>
-  <body>
+	<body>
+		
 		<?php echo $message; ?>
 		
 		<!-- DOCUMENT VIEWER -->
@@ -44,6 +45,6 @@ try {
 		<!-- DOCUMENT THUMBNAIL -->
 		<h3>Document Thumbnail</h3>
 		<p><img src="thumbnail?id=<?php echo $uuid; ?> " /></p>
-
+		
 	</body>
 </html>
